@@ -1,0 +1,70 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.nave img{
+    width: 30%;
+    height: 30%;
+}
+.collapse{
+    text-align: center;
+    display: flex;
+    align-content: center;
+
+}
+
+.row{
+    padding: 5px;
+    background-color:rgb(235, 12, 123);
+    color:white;
+    text-align: center;
+}
+
+.card-body{
+    background-color: rgb(247, 99, 148);
+    color: rgb(245, 32, 103);
+
+    
+}
+
+.card-title{
+    font-size:x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+
+}
+.card-text{
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color:white;
+
+}
+
+.card-img-top{
+    width: min-content;
+    height:min-content;
+}
+
+.nav-item{
+font-size: x-large;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 400;
+color: aliceblue;
+}
+
+.img-logo{
+    box-shadow:16px 16px 9px rgba(201, 191, 190, 0.397);
+    border-radius:81% 19% 80% 20% / 25% 72% 28% 75% ;
+}
+
+.box__footer a{
+    margin-top: 5px;
+    color:white;
+}
+.box__footer h2{
+    font-size: large;
+}
+.box__footer a:hover{
+    color:blue;
+}
+
