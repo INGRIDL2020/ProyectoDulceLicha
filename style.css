@@ -1,7 +1,13 @@
 *{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
+    
 }
+.nave{
+    background-color: rgb(18,236,226);
+    background: linear-gradient(212deg, rgba(18,236,226,0.8939950980392157) 0%, rgba(232,154,214,0.5102415966386555) 67%, rgba(246,244,246,0.6502976190476191) 100%);
+}
+
 .nave img{
     width: 30%;
     height: 30%;
@@ -15,9 +21,14 @@
 
 .row{
     padding: 5px;
-    background-color:rgb(235, 12, 123);
+    background: rgb(168,182,182);
+    background: linear-gradient(95deg, rgba(168,182,182,0.8939950980392157) 0%, rgba(237,14,164,0.5102415966386555) 54%, rgba(210,204,209,0.6502976190476191) 100%);
     color:white;
     text-align: center;
+  
+}
+.card{
+    justify-content: space-between;
 }
 
 .card-body{
@@ -28,43 +39,76 @@
 }
 
 .card-title{
-    font-size:x-large;
+    font-size:large;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: white;
 
 }
 .card-text{
-    font-size: large;
+    font-size: small;
     font-family:Georgia, 'Times New Roman', Times, serif ;
     color:white;
 
 }
 
 .card-img-top{
-    width: min-content;
-    height:min-content;
+    width: ;
+    height:;
 }
 
 .nav-item{
 font-size: x-large;
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-weight: 400;
-color: aliceblue;
+color: white;
 }
 
-.img-logo{
-    box-shadow:16px 16px 9px rgba(201, 191, 190, 0.397);
-    border-radius:81% 19% 80% 20% / 25% 72% 28% 75% ;
+.caja{
+    background: rgb(8,219,213);
+    background: linear-gradient(95deg, rgba(8,219,213,0.8939950980392157) 0%, rgba(232,154,214,0.5102415966386555) 39%, rgba(205,4,170,0.6502976190476191) 100%);
+
+
+}
+.imgfoot{
+    width:20%;
+    height:20%;
+    border-radius: 90% 10% 82% 18% / 45% 58% 42% 55%;
+    box-shadow:12px 12px 10px rgb(189, 176, 176) ;
 }
 
-.box__footer a{
+.col{
+    align-items: center;
+    
+}
+
+.col a{
     margin-top: 5px;
     color:white;
 }
-.box__footer h2{
+
+.col h2{
     font-size: large;
 }
-.box__footer a:hover{
-    color:blue;
+
+.col a:hover{
+    color:yellow;
 }
 
+.box__copyright{
+    
+    margin: auto;
+    text-align: center;
+    padding: 0px 30px;
+    background-color:rgb(240, 231, 235) ;
+}
+.box__copyright p{
+    margin-top: 10px;
+    font-size: 10px;
+    color: black;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color:rgb(122, 48, 94);
+}
