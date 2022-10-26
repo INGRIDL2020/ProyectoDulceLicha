@@ -90,6 +90,10 @@ color: white;
     color:yellow;
 }
 
+col h6{
+    text-decoration: none;
+}
+
 .box__copyright{
     
     margin: auto;
@@ -106,5 +110,5 @@ color: white;
 .box__copyright hr{
     border: none;
     height: 1px;
-    background-color:rgb(122, 48, 94);
+    background-color:rgb(8, 7, 8);
 }
