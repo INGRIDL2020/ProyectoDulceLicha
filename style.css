@@ -51,10 +51,6 @@
 
 }
 
-.card-img-top{
-    width: ;
-    height:;
-}
 
 .nav-item{
 font-size: x-large;
@@ -70,7 +66,7 @@ color: white;
 
 }
 .imgfoot{
-    width: 30px;
+    width: 30%;
     height:30%;
     border-radius: 90% 10% 82% 18% / 45% 58% 42% 55%;
     box-shadow:12px 12px 10px rgb(189, 176, 176) ;
